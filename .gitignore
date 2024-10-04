@@ -1,2 +1,91 @@
-.vscode
-*.pyc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables
+.env
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtualenv
+venv/
+ENV/
+env/
+venv.bak/
+venv.bk/
+
+# Python virtual environment
+*.venv
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+docker-compose.*
+*.log
+*.pid
+*.sock
+
+# Logs
+*.log
+logs/
+
+# Secrets
+secrets/
+*.key
+*.pem
+*.crt
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Debugging files
+debug.log
+debug/
